@@ -15,7 +15,7 @@
     "email-validator": "^2.0.4",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.0",
-    "mongoose": "^5.4.17",
+    "mongoose":"",
     "underscore": "^1.9.1"
   }
 }
