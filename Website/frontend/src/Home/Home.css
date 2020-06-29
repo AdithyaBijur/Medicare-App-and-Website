@@ -1,0 +1,190 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.mainhomediv {
+    min-height: 100vh;
+    background-color: #EDF0F5;
+}
+
+.WelcomeUser {
+    display: block;
+    background-color: white;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    float: right;
+}
+
+.NURD {
+    width: 100%;
+}
+
+.NUN {
+    text-align: center;
+}
+
+.detailbox {
+    box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, .5);
+    transition: 1.0s;
+}
+
+.detailbox:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 2px 3px 0;
+    z-index: 1;
+    /* background-color: #223368; */
+    /* color:white; */
+}
+
+/* .IconS {} */
+
+.CardTitle {
+    float: left;
+    font-weight: 500;
+    /* width:25%; */
+    /* padding: 0px; */
+    margin: 0px;
+    margin-right: 5px;
+    /* background-color: red; */
+}
+
+.CardContent {
+    /* font-weight: 500; */
+    padding: 0px;
+    margin: 0px;
+    /* background-color: blue; */
+}
+
+.speclassi {
+    transition: 1s;
+}
+
+.speclassi:focus {
+    box-shadow: 0px 1px 1px wheat;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    /* border: none; */
+    font-size: 16px;
+    padding: 5px;
+    /* margin-top: 10px; */
+    /* margin-left: 20px; */
+    /* margin-right: 120px; */
+}
+
+.addmedi span {
+    font-size: 19px;
+    font-weight: 650;
+    /* margin-top: 10px; */
+    margin-bottom: 5px;
+}
+
+.addmediformspan {
+    float: right;
+}
+
+.searchinput {
+    width: 90%;
+    /* border-radius: 5px; */
+}
+
+.searchmedibut {
+    padding-left: 5%;
+    padding-right: 5%;
+    /* font-size: 20px; */
+}
+
+@media only screen and (min-width: 1224px) {
+    .addmedirow {
+        margin-bottom: 10px;
+    }
+    .addmedibutt {
+        float: left;
+        width: 20%;
+        margin-top: 2%;
+    }
+    .NUN {
+        font-weight: 500;
+        font-size: 23px;
+    }
+    .Loader {
+        width: 100%;
+        min-height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        background-color: #1B1B1B;
+    }
+    .Image {
+        content: url("../assets/loader.gif");
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .WelcomeUser {
+        font-size: 16px;
+        float: none;
+        text-align: center;
+    }
+    .addmediformspan {
+        float: left;
+    }
+    .addmedibutt {
+        margin-top: 2%;
+    }
+    .searchmedibut {
+        margin-left: 38%;
+    }
+    .detailbox:hover {
+        transform: scale(1.06);
+        z-index: 1;
+    }
+    .NUN {
+        font-weight: 500;
+        font-size: 23px;
+    }
+    .Loader {
+        width: 100%;
+        min-height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        background-color: white;
+    }
+    .Image {
+        /* height: 100vh; */
+        content: url("../assets/loadingGIF1.gif");
+        display: block;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        padding-top: 26vh;
+        width: 100%;
+    }
+}
+
+.Loader {
+    min-height: 100vh;
+}
+
+/* 
+.Loader {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: #1B1B1B;
+} */
+
+/* .Image {
+    content: url("../assets/loader.gif");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
