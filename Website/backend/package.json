@@ -16,6 +16,6 @@
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.0",
     "mongoose":"",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   }
 }
