@@ -10,10 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "cors": "^2.8.5",
     "email-validator": "^2.0.4",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "jsonwebtoken": "^8.5.0",
     "mongoose":"",
     "underscore": "^1.9.1"
