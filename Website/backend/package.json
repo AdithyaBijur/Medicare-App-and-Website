@@ -14,7 +14,7 @@
     "cors": "^2.8.5",
     "email-validator": "^2.0.4",
     "express": "^4.16.4",
-    "jsonwebtoken": "^8.5.0",
+    "jsonwebtoken": "^9.0.0",
     "mongoose":"",
     "underscore": "^1.9.1"
   }
